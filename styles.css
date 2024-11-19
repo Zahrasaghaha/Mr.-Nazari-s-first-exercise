@@ -1,0 +1,116 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    flex-wrap: nowrap;
+    height: auto;
+    width: auto;
+    background-color: rgb(55, 56, 61);
+    align-items: center;
+    padding-left: 5vw;
+}
+.div-content{
+    display: flex;
+    flex-direction: row;
+    
+    height: 160%;
+    width: 100%;
+    background-color: brown;
+    flex-wrap: nowrap;
+}
+.photo{
+    min-height: 180px;
+    min-width:180px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.text-title{
+    height: auto;
+    width: 100%;
+    padding-left: 20%;
+}
+
+h1{
+    font-size: 400%;
+}
+h1,h2,h3,h4,li{
+    font-family: Arial;
+    font-weight: bold;
+}
+p{
+  font-family:Arial;
+  font-weight: bold;
+  font-size: 14px; 
+}
+.left-side{
+    height: auto ;
+    width: auto;
+    background-color: rgb(237, 232, 226);
+    display: flex;
+    flex-direction: column;
+    
+    padding: 3% 2% 0% 3%;
+    
+}
+.side1,.side2{
+    
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    background-color: rgb(237, 232, 226);
+    align-items: flex-start;
+    
+    flex-wrap: nowrap;
+    border: 0px;
+    margin-bottom: 10%;
+}
+.contact-title{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+    
+}
+.side3{
+    height: auto;
+    width: auto;
+    background-color: rgb(237, 232, 226);
+    
+    border: 0px;
+    
+}
+.right-side{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 5% 2% 0% 5%;
+    margin: 0px;
+}
+hr{
+    border: 2px solid black;
+    margin: 0px;
+    padding: 0px;
+}
+.icons{
+    margin: 0px 6px 6px 0px;
+    
+}
+.p-contact{
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
